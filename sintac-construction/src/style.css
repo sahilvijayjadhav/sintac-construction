@@ -1,0 +1,421 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+.TopHeader{
+    background-color: #F6F6F6;
+    height: 42px;
+}
+.TopHeader>section{
+    height: 42px;
+}
+.top-right-header a i{
+    font-size: 14px;
+    color: #e22104;
+}
+.top-right-header a span{
+    font-size: 14px;
+    color: #777777;
+    transition: all 0.3s ease-in-out;
+}
+.top-right-header a span:hover{
+    color: #e22104;
+}
+.top-left-header span{
+    font-size: 14px;
+    color: #777777;
+}
+.top-left-header a{
+    font-size: 13px;
+    color: #777777;
+    transition: all 0.3s ease-in-out;
+}
+.top-left-header a:hover{
+    color: #e22104;
+}
+#mymenu ul li{
+    font-size: 14px;
+    font-weight: 500;
+}
+.cart-search a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+.hero{
+    background-image: url(../public/images/illustration/home-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-inner{
+ padding: 250px 0 190px;   
+}
+.hero-inner h2{
+    font-family: "Heebo", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.line-bottom{
+    background-color: #ffffff;
+    height: 1px;
+    width: 110px;
+    margin: 0px auto 0px;
+}
+.hero-inner h1{
+    font-family: "Heebo", sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+    margin: 0px auto 0px;
+}
+.hero-inner a{
+    font-family: "Heebo", sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    background-color: #e22104;
+    padding: 15px 45px;
+    transition: all 0.3s ease-in-out;
+}
+.hero-inner a:hover{
+    background-color: #ffffff;
+    color: #e22104;
+}
+.about-details a{
+    font-family: "Heebo", sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    background-color: #e22104;
+    padding: 15px 45px;
+    transition: all 0.3s ease-in-out;
+}
+.about-details a:hover{
+    background-color: #ffffff;
+    color: #e22104;
+    border: 1px solid #e22104;
+}
+.about-details h2{
+    font-family: "Heebo", sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    color: #202e31;
+    font-weight: 700;
+}
+.about-details p{
+    font-size: 15px;
+    color: #888888;
+    line-height: 26px;
+}
+.provide{
+    background-color: #F7F7F7;
+}
+.line-top{
+    width: 110px;
+    background-color: #e22104;
+    height: 1px;
+    margin: 0px auto 0px;
+}
+.provide section>h2,
+.projects section>h2,
+.customer-reviews>h2,
+.news>h2{
+    font-size: 30px;
+    color: #202e31;
+    font-weight: 700;
+}
+
+.provide section>p,
+.projects section>p,
+.customer-reviews>p,
+.news>p{
+    font-size: 14px;
+    color: #888888;
+}
+.provide-card{
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border: 0px solid #e22104;
+    transition: all 0.3s ease-in-out;
+}
+.provide-card:hover{
+    border: 1px solid #e22104;
+}
+.provide-card h3{
+    font-family: "Heebo", sans-serif;
+    color: #202e31;
+    font-size: 20px;
+    font-weight: 500;
+}
+.provide-card p{
+    font-family: "Heebo", sans-serif;
+    color: #888888;
+    font-size: 14px;
+    line-height: 27px;
+}
+.High-Quality-Service{
+    background-image: url(../public/images/illustration/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.personalize-section-details h2{
+    font-family: "Heebo", sans-serif;
+    font-size: 30px;
+    color: #202e31;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.personalize-section-details p{
+    font-size: 15px;
+    color: #888888;
+    font-weight: 400;
+    line-height: 26px;
+}
+.span1{
+    font-family: "Heebo", sans-serif;
+    font-size: 27px;
+    color: #e22104;
+    font-weight: 700;
+}
+.span2{
+    font-size: 16px;
+    color: #888888;
+    text-transform: capitalize;
+}
+.project-menu li a{
+    color: #202e31;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.project-menu li a:hover{
+    color: #e22104;
+}
+.customer-reviews{
+    background-color: #F6F6F6;
+}
+.reviews{
+    background-color: #ffffff;
+    padding: 30px 25px 40px 30px;
+    position: relative;
+    overflow: hidden;
+}
+.review-details{
+    text-align: start;
+}
+.review-details strong{
+    font-family: "Heebo", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #202e31;
+    transition: all 0.3s ease-in-out;
+}
+.review-details strong:hover{
+    color: #e22104;
+}
+.review-details span{
+    font-size: 14px;
+    color: #888888;
+    font-style: italic;
+    font-weight: 400;
+}
+.review-details p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #888888;
+    line-height: 24px;
+}
+.cotation{
+    position: absolute;
+    top: -55px;
+    right: 0;
+}
+.blog{
+    text-align: start;
+}
+.blog div{
+    overflow: hidden;
+}
+.blog div img{
+    transition: all 0.3s ease-in-out;
+}
+.blog div img:hover{
+    transform: scale(1.1);
+}
+.blog span{
+    font-size: 14px;
+    color: #888888;
+    transition: all 0.3s ease-in-out;
+}
+.blog span:hover{
+    color: #e22104;
+    cursor: pointer;
+}
+.blog span i{
+    font-size: 14px;
+}
+.blog p{
+    font-family: "Heebo", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #202e31;
+}
+.footer{
+    background-color: #16191A;
+}
+.menu h2,
+.Business h2,
+.newsletter h2{
+    font-family: "Heebo", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.menu hr,
+.Business hr,
+.newsletter hr{
+    color: #ffffff;
+}
+.Userful-Links ul li a{
+    color: #888888;
+    font-size: 14px;
+    font-weight: 400;
+}
+.hours span,
+.Business>span{
+    color: #888888;
+    font-size: 14px;
+    font-weight: 400;
+}
+.newsletter form input::placeholder{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+}
+.newsletter form input{
+    background-color: #777777;
+    border: none;
+    padding: 8px 0px 8px 15px;
+    margin-right: 10px;
+}
+.newsletter form button{
+    background-color: #e22104;
+    border: none;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 9px 20px 9px 20px;
+    transition: all 0.3s ease-in-out;
+}
+.newsletter form button:hover{
+    background-color: #ffffff;
+    color: #e22104;
+}
+.newsletter p{
+    font-size: 14px;
+    color: #888888;
+    line-height: 26px;
+}
+.policy{
+    color: #e22104;
+    font-size: 14px;
+
+}
+.aboutPage,
+.servicesPage,
+.projectPage,
+.blogPage,
+.contactPage{
+    background-color: #F6F6F6;
+}
+.aboutPage-section h2,
+.servicesPage-section h2,
+.projectPage-section h2,
+.blogPage-section h2,
+.contactPage-section h2{
+    font-family: "Heebo", sans-serif;
+    font-size: 42px;
+    color: rgb(42, 42, 42);
+    font-weight: 700;
+}
+.map{
+    height: 450px;
+}
+.textInput,
+.emailInput{
+    width: 48%;
+}
+.contact-btn{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    border: none;
+    background-color: #e22104;
+    padding: 12px 25px;
+    transition: all 0.4s ease-in-out;
+}
+.contact-btn:hover{
+    background-color: #2a2a2a;
+}
+.contactIcon i{
+    font-size: 27px;
+    color: rgb(143, 145, 149);
+    margin-right: 15px;
+}
+.iconInfo h3{
+    font-family: "Heebo", sans-serif;
+    font-size: 16px;
+    color: rgb(42, 42, 42);
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.iconInfo p{
+    font-family: "Heebo", sans-serif;
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+    font-weight: 400;
+}
+.class{
+    padding-left: 20px;
+    padding-top: 0;
+}
+/* .demo{
+    background-image: url(../public/images/illustration/blog1.jpg);
+} */
+@media (min-width : 768px) {
+    .hero-inner h2{
+        font-family: 24px;
+    }
+    .hero-inner h1{
+        font-size: 60px;
+        width: 66%;
+    }
+    .class{
+        padding-left: 20px;
+        padding-top: 0;
+    }
+}
+@media (min-width : 992px) {
+    .class{
+        padding-left: 100px;
+        padding-top: 150px;
+    }
+}
